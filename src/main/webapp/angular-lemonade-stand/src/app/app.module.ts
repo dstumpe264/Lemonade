@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { OwnerComponent } from './owner/owner.component';
 import { LemonadeStandComponent } from './lemonade-stand/lemonade-stand.component';
 import { ProductsComponent } from './products/products.component';
+import { CustomerComponent } from './customer/customer.component';
+import { GettingStartedComponent } from './getting-started/getting-started.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OwnerComponent,
     LemonadeStandComponent,
-    ProductsComponent
+    ProductsComponent,
+    CustomerComponent,
+    GettingStartedComponent
   ],
   imports: [
     BrowserModule,
