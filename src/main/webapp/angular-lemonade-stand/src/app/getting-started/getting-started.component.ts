@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { example } from '../example';
 
 @Component({
   selector: 'app-getting-started',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./getting-started.component.scss']
 })
 export class GettingStartedComponent implements OnInit {
+	
+	example = example;
 
   constructor() { }
 
