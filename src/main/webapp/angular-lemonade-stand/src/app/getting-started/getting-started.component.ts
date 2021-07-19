@@ -8,6 +8,15 @@ import { example } from '../example';
 })
 export class GettingStartedComponent implements OnInit {
 	
+//	add(name:string): void{
+//		name = name.trim();
+//		if (!name) { return;}
+//		this.gettingStartedService.addName({ name} as Lemonadestand) 
+//			.subscribe(lemonadestand => {
+//				this.lemonadestand.push(lemonadestand);
+//			});
+//	}
+	
 	example = example;
 
   constructor() { }

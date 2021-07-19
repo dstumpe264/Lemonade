@@ -4,4 +4,35 @@
 <h3>Let's start with a name.</h3>
 <h4>I named my lemonade stand: "{{example.name}}". It's id is: {{example.id}}. </h4>
 <br><br>
+<h4> What do you want to name yours??</h4>
+<div>
+	<label for= "new-name">Name: </label>
+	<input id="new-name" #standName>
+	{{ standName }}
+<!-- <button class="add-button" (click)="add(standName.value); standName.value=''">Add name</button> -->
+</div>
 <h1>Now lets get started with yours.</h1>
+<h3>You need a product, inventory, a stand, and method of delivery.</h3>
+<h4>Product:</h4>
+	<ul>
+		<li>regular lemonade</li>
+		<li>raspberry lemonade</li>
+		<li>pink lemonade</li>
+	</ul>
+	
+<h4>Ingredients:</h4>
+	<ul>
+		<li>lemons</li>
+		<li>raspberrys</li>
+		<li>pink stuff</li>
+		<li> water</li>
+		<li>sugar</li>
+		<li>ice</li>
+	</ul>
+	
+<h4>Equipment:</h4>
+	<ul>
+		<li>Stand</li>
+		<li>Mixer</li>
+		<li>Cups</li>
+	</ul>
